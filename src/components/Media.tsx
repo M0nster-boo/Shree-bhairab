@@ -12,7 +12,7 @@ export default function Media() {
     {
       id: 'video2',
       title: 'Behind the Scenes',
-      embedId: 'YOUR_YOUTUBE_VIDEO_ID_2'
+      embedId: 'uOVzqqKgd9g'
     },
     {
       id: 'video3',

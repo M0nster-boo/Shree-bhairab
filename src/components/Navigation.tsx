@@ -10,7 +10,7 @@ export default function Navigation() {
     <nav className="fixed w-full z-50 bg-black bg-opacity-90">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Logo src={images.logo} alt="Harmonic Fusion Logo" />
+          <Logo src={images.logo} alt="Shree-Bhairab Logo" />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

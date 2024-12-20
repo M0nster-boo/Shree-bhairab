@@ -6,23 +6,35 @@ export default function MemberSlider() {
 
   const members = [
     {
-      name: "David Chen",
-      role: "Piano & Composition",
+      name: "Pratik Maharjan",
+      role: "Flute & Composition",
       image: "/images/members/member1.jpg",
-      bio: "A classically trained pianist with a passion for blending traditional and contemporary styles."
+      bio: "A classically trained flutist with a passion for blending traditional and contemporary styles."
     },
     {
-      name: "Sarah Williams",
-      role: "Violin",
+      name: "Saman Maharjan",
+      role: "Flute",
       image: "/images/members/member2.jpg",
-      bio: "Virtuoso violinist bringing emotional depth and technical precision to every performance."
+      bio: "Flutist bringing emotional depth and technical precision to every performance."
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Percussion",
+      name: "Shreejan Maharjan",
+      role: "Khin",
       image: "/images/members/member3.jpg",
-      bio: "Innovative percussionist exploring rhythmic boundaries and world music influences."
+      bio: "Newari traditional instrument khin bringing power of music that transcends boundaries and touches souls."
     }
+    {
+      name: "Susma Shrestha",
+      role: "Percussion",
+      image: "/images/members/member4.jpg"
+      bio: "Innovative percussionist exploring rhythmic boundaries."
+    },
+    {
+      name: "Mijal Maharjan",
+      role: "Drum",
+      image: "/images/members/member5.jpg"
+      bio: "Newari traditional drumist."
+    },
   ];
 
   const nextSlide = () => setCurrentIndex((prev) => (prev + 1) % members.length);

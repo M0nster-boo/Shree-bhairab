@@ -23,7 +23,7 @@ export default function ContactInfo() {
           <Mail className="text-amber-500" size={24} />
           <div>
             <p className="font-semibold">Email</p>
-            <p className="text-gray-600">shreebhairabsmai@gmail.com</p>
+            <p className="text-gray-600">shreebhairabsmail@gmail.com</p>
           </div>
         </div>
       </div>

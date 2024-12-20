@@ -7,17 +7,17 @@ export default function Media() {
     {
       id: 'video1',
       title: 'Puwacha Nipucha × Asaraya Sina Jya ǀ Newari Folk Song ǀ Instrumental Cover ǀ Shree Bhairab',
-      embedId: <iframe width="560" height="315" src="https://www.youtube.com/embed/uOVzqqKgd9g?si=QJVxVCZRdk1ustSx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    },
-    {
-      id: 'video2',
-      title: 'Behind the Scenes',
       embedId: 'uOVzqqKgd9g'
     },
     {
+      id: 'video2',
+      title: 'Salugu Gacha । Sirsaya Hegu । Aila Luwaya । Mashup Song । Shardul Jung Gulma (Gurju Paltan)',
+      embedId: 'B0oMn8t4xDE'
+    },
+    {
       id: 'video3',
-      title: 'Summer Concert Highlights',
-      embedId: 'YOUR_YOUTUBE_VIDEO_ID_3'
+      title: 'Wo Chu Galli Tho Chu Galli Cover • Shree Bhairab',
+      embedId: 'HNZK08QlH_0'
     }
   ];
 

@@ -6,36 +6,31 @@ export default function MemberGrid() {
 
   const allMembers = [
     {
-      name: "David Chen",
-      role: "Piano",
+      name: "Pratik Maharjan",
+      role: "Flute",
       image: "/images/members/member1.jpg"
     },
     {
-      name: "Sarah Williams",
-      role: "Violin",
+      name: "Saman Maharjan",
+      role: "Flute",
       image: "/images/members/member2.jpg"
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Percussion",
+      name: "Shreejan Maharjan",
+      role: "khin",
       image: "/images/members/member3.jpg"
     },
     {
-      name: "Emily Zhang",
-      role: "Cello",
+      name: "Susma Shrestha",
+      role: "Percussion",
       image: "/images/members/member4.jpg"
     },
     {
-      name: "Michael Brown",
-      role: "Bass",
+      name: "Mijal Maharjan",
+      role: "Drum",
       image: "/images/members/member5.jpg"
     },
-    {
-      name: "Lisa Anderson",
-      role: "Flute",
-      image: "/images/members/member6.jpg"
-    }
-  ];
+    ];
 
   const displayedMembers = showAll ? allMembers : allMembers.slice(0, 3);
 

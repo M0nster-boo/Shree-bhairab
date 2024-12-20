@@ -6,8 +6,8 @@ export default function Media() {
   const videos = [
     {
       id: 'video1',
-      title: 'Live at Symphony Hall',
-      embedId: 'YOUR_YOUTUBE_VIDEO_ID_1'
+      title: 'Puwacha Nipucha × Asaraya Sina Jya ǀ Newari Folk Song ǀ Instrumental Cover ǀ Shree Bhairab',
+      embedId: <iframe width="560" height="315" src="https://www.youtube.com/embed/uOVzqqKgd9g?si=QJVxVCZRdk1ustSx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     {
       id: 'video2',

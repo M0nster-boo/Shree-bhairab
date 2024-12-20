@@ -19,7 +19,10 @@ export default function GalleryGrid() {
   ];
 
  const displayedImages = showAll ? allImages : allImages.slice(0, 6);
-
+  const allImages = allImages.map(image => ({
+  ...image,
+  title: image.title || 'Untitled',
+}));
   return (
     <div className="space-y-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

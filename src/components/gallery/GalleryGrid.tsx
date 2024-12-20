@@ -15,7 +15,7 @@ export default function GalleryGrid() {
     { src: '/images/gallery/6.jpg', title: 'Saman Maharjan' },
     { src: '/images/gallery/7.jpg', title: 'Pratik Maharjan' },
     { src: '/images/gallery/8.jpg', title: 'Mijal Maharjan' },
-    { src: '/images/gallery/9.jpg', title: 'Susma Shrestha' }
+    { src: '/images/gallery/9.jpg', title: 'Susma Shrestha' },
   ];
 
   const displayedImages = showAll ? allImages : allImages.slice(0, 6);
@@ -24,15 +24,16 @@ export default function GalleryGrid() {
     <div className="space-y-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {displayedImages.map((image, index) => (
-          <div 
-            key={index}
+          <div
+            key={image.src} // Use unique `src` as key
             className="relative overflow-hidden rounded-lg cursor-pointer group"
             onClick={() => setSelectedImage(image.src)}
           >
-            <img 
+            <img
               src={image.src}
-              alt={image.title}
-              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+              alt={image.title || 'Gallery Image'}
+              loading="lazy" // Lazy loading for better performance
+              className="w-full h-auto object-cover aspect-w-4 aspect-h-3 transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <p className="text-white text-xl font-semibold">{image.title}</p>
@@ -42,7 +43,7 @@ export default function GalleryGrid() {
       </div>
 
       <div className="text-center">
-        <Button 
+        <Button
           onClick={() => setShowAll(!showAll)}
           variant="secondary"
         >
@@ -51,9 +52,9 @@ export default function GalleryGrid() {
       </div>
 
       {selectedImage && (
-        <GalleryModal 
-          imageUrl={selectedImage} 
-          onClose={() => setSelectedImage(null)} 
+        <GalleryModal
+          imageUrl={selectedImage}
+          onClose={() => setSelectedImage(null)}
         />
       )}
     </div>

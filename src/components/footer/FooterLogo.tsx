@@ -6,7 +6,7 @@ export default function FooterLogo() {
         alt="Harmonic Fusion Logo"
         className="w-10 h-10 rounded-full object-cover"
       />
-      <span className="text-xl font-bold">Harmonic Fusion</span>
+      <span className="text-xl font-bold">Shree Bhairab</span>
     </div>
   );
 }

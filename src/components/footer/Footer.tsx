@@ -11,13 +11,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
           {/* Brand and Social */}
           <div className="space-y-6">
-            <FooterLogo src={images.footerLogo} alt="Harmonic Fusion Logo" />
+            <FooterLogo src={images.footerLogo} alt="Shree Bhairab Logo" />
             <p className="text-gray-400">Experience the power of instrumental music that transcends boundaries and touches souls.</p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-amber-500 transition-colors"><Facebook /></a>
+              <a href="https://www.facebook.com/profile.php?id=61554835328090" className="hover:text-amber-500 transition-colors"><Facebook /></a>
               <a href="#" className="hover:text-amber-500 transition-colors"><Twitter /></a>
-              <a href="#" className="hover:text-amber-500 transition-colors"><Instagram /></a>
-              <a href="#" className="hover:text-amber-500 transition-colors"><Youtube /></a>
+              <a href="https://www.instagram.com/shree_bhairab/" className="hover:text-amber-500 transition-colors"><Instagram /></a>
+              <a href="https://www.youtube.com/@shreebhairab" className="hover:text-amber-500 transition-colors"><Youtube /></a>
             </div>
           </div>
 
@@ -37,18 +37,17 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>123 Music Avenue</li>
-              <li>Harmony City, HC 12345</li>
-              <li>Phone: (555) 123-4567</li>
-              <li>Email: contact@harmonicfusion.com</li>
+              <li>Ta:nani-12, Kathmandu, Nepal</li>
+              <li>Phone: +977 9863689662</li>
+              <li>Email: shreebhairabsmail@gmail.com</li>
             </ul>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {currentYear} Harmonic Fusion. All rights reserved.</p>
-          <p className="mt-4 md:mt-0">Designed with ♪ by Harmonic Studio</p>
+          <p>&copy; {currentYear} Shree Bhairab Band. All rights reserved.</p>
+          <p className="mt-4 md:mt-0">Designed by Pritam Maharjan</p>
         </div>
       </div>
     </footer>

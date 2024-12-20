@@ -32,7 +32,7 @@ export default function MemberGrid() {
     },
     ];
 
-  const displayedMembers = showAll ? allMembers : allMembers.slice(0, 3);
+  const displayedMembers = showAll ? allMembers : allMembers.slice(0, 5);
 
   return (
     <div className="space-y-8">
